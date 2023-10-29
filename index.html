@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="desktop-logo">Yogita Patil</div>
+        <ul class="link-group">
+            <li class="link active"><a href="#">Home</a></li>
+            <li class="link"><a href="#project-section">Project</a></li>
+            <li class="link"><a href="#skills">Skills</a></li>
+            <li class="link"><a href="#experience">Experience</a></li>
+            <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <nav id="hamburger-nav">
+        <div class="logo">Yogita Patil</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onClick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#" onClick="toggleMenu()">Home</a></li>
+                <li><a href="#project-section" onClick="toggleMenu()">Project</a></li>
+                <li><a href="#skills" onClick="toggleMenu()">Skills</a></li>
+                <li><a href="#experience" onClick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onClick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+
+    <section id="homeSection" class="slide-right">
+        <div class="sub-home-section">
+            <h3 class="hello">Hello, <br>My name is <span class="name">Yogita Patil</span></h3>
+            <h3 class="my-profession">I am a <span class="auto-type"></span></h3>
+            <p class="my-info">I'm a Web Developer having an experience of building web applications with Javascript, 
+                React, Spring Boot, Java and some other cool libraries.</p>
+        </div>
+        <div class="sub-home-section homeImage fade-in-image">
+            <img src="./Images/1608639_code_icon.png" alt="Developer Icon">
+        </div>      
+    </section>
+
+
+    <!-- Project Section -->
+
+    <section id="project-section">
+        <!-- <h1>Some Of My Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./Images/movieLand_Image.webp" alt="Movie Land Image">
+                </div>
+                <h2>Movie Land</h2>
+                <div class="btn-container">
+                    <button class="project-card-btn">Github</button>
+                    <button class="project-card-btn">Live Demo</button>
+                </div>
+            </div>
+        </div> -->
+
+        <h1 class="section-heading">Project</h1>
+        <div class="workProject">
+            <div class="project-container">
+            <div class="project-card">
+                <h4 class="project-name">Healthcare Website</h4>
+                <i>Role: Web Developer<br>
+                   Client: Healthcare Company in US</i>
+                <p class="project-info">Played a key role in developing  a healthcare website which provides
+                    essential services and resources to users in the United States. 
+                    The website makes it simple for users to find doctors and other healthcare resources 
+                    in their area.
+                </p>
+                <p class="techStack"><i><span>Technology Used:</span> JSP, CSS, JavaScript, Java, Spring Boot</i></p>
+            </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills">
+        <p>Explore My</p>
+        <h4>Skills</h4>
+
+        <div class="skills-parent-container">
+            <div class="skills-container">
+                <div class="sub-container">
+                    <h2>Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skills-container">
+                <div class="sub-container">
+                    <h2>Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>SpringBoot</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img class="skills_icon" src="./Images/skill_icon.png" alt="Experience Icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- Education & Experience -->
+
+    <section id="experience">
+        <h1>Education & Experience</h1>
+        <div class="exp-container">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2015</h1>
+                    <p class="card-detail">10th SSC (87%)</p>
+                    <p><i>Maharashtra State Board<br>
+                        C.B.T. Sadhana Kanya Vidyalaya, Pune</i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2016-2017</h1>
+                    <p class="card-detail">12th HSC (69.08%)</p>
+                    <p><i>Maharashtra State Board
+                        R. R. Shinde Junior College of Science, Pune</i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2017-2021</h1>
+                    <p class="card-detail">BE Computer Engineering (9.05 CGPA)</p>
+                    <p><i>Savitribai Phule Pune University
+                        JSPM’s Jayawantrao Sawant College of Engineering, Pune</i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">August 2021 – December 2021</h1>
+                    <p class="card-detail">Infosys Ltd.</p>
+                    <p><i>Systems Engineer Trainee</i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">January 2021 – July 2023</h1>
+                    <p class="card-detail">Infosys Ltd.</p>
+                    <p><i>Systems Engineer</i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">August 2023 – October 2023</h1>
+                    <p class="card-detail">Infosys Ltd.</p>
+                    <p><i>Senior Systems Engineer</i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+        <h1>Reach Out to me!</h1>
+        <p>
+            Feel free to reach out if you'd like to collaborate or learn more about my work. 
+            I'm always open to new opportunities and challenges.
+        </p>
+        <button class="cv-btn" onclick="window.open('Resume.pdf')">Download CV</button>
+        <div class="contact-icons">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512" onclick="location.href = 'https://www.linkedin.com/in/yogitapatil15/'"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            <a href="mailto:yogitapatil1510@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" class="icon emailIcon" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fab005}</style><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a>
+            
+        </div>
+    </section>
+    
+    <!-- JS File -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
